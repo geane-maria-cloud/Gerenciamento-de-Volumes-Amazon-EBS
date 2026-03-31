@@ -2,7 +2,7 @@
 
 Este repositório contém a documentação técnica do laboratório prático de **Amazon Elastic Block Store (EBS)**, realizado no ambiente AWS. O objetivo foi gerenciar o ciclo de vida de volumes de armazenamento e implementar estratégias de backup e recuperação.
 
-![Diagrama do Lab](diagrama.png)
+![Diagrama do Laboratório](diagrama.png.PNG)
 
 ## 🎯 Objetivos do Projeto
 * Criar e configurar volumes EBS (Elastic Block Store).
@@ -16,7 +16,7 @@ Este repositório contém a documentação técnica do laboratório prático de 
 ### 1. Provisionamento e Conexão
 Criação de um volume **EBS tipo gp3 de 1 GiB** na mesma Zona de Disponibilidade (AZ) da instância EC2. O volume foi anexado com sucesso à instância de laboratório.
 
-![Console AWS Volumes](console.jpg)
+![Console AWS Volumes](console.jpg.png)
 
 ### 2. Configuração do Sistema de Arquivos (Linux)
 No terminal, realizei a preparação do disco para uso:
@@ -31,7 +31,7 @@ Simulação de um cenário real de proteção de dados:
 3. Deleção proposital do arquivo original.
 4. **Restauração:** Criação de um novo volume a partir do Snapshot e remontagem em `/mnt/data-store2`, validando a integridade dos dados recuperados.
 
-![Terminal de Comandos](terminal.png)
+![Terminal de Comandos](terminal.png.png)
 
 ---
 
